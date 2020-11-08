@@ -69,7 +69,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** Rood/Zwart
+**Je startniveau:** Rood
 
 **Je focus:** Beide lijken me wel leuk te doen
 
