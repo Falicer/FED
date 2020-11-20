@@ -64,10 +64,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-<img src="Opdrachten/Breakdownschets/breakdown1.PNG" width="375px" alt="homepage">
-<img src="Opdrachten/Breakdownschets/breakdown2.PNG" width="375px" alt="homepage">
-<img src="Opdrachten/Breakdownschets/breakdown3.PNG" width="375px" alt="homepage">
-<img src="Opdrachten/Breakdownschets/breakdown4.PNG" width="375px" alt="homepage">
+<img src="Opdrachten/Breakdownschets/breakdown1.png" width="375px" alt="homepage">
+<img src="Opdrachten/Breakdownschets/breakdown2.png" width="375px" alt="homepage">
+<img src="Opdrachten/Breakdownschets/breakdown3.png" width="375px" alt="homepage">
+<img src="Opdrachten/Breakdownschets/breakdown4.png" width="375px" alt="homepage">
 
 
 
