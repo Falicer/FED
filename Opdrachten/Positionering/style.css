@@ -1,5 +1,3 @@
-/* een paar algemene dingetjes */
-/* hoef je niets aan te veranderen */
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -30,405 +28,252 @@ img {
   width:100%;
 }
 
-
-/************************************/
-/* CODE VOOR li MET id="linksboven" */
-/************************************/
-/* elke li heeft een id */
-/* die kun je benutten om die li te selecteren */
 #linksboven {
-  position: relative;
-  
-  /* jouw code hier */
-  
+  position:relative;
 }
 
-/* en om de h2 binnen die li te selecteren*/
 #linksboven h2 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* jouw code hier */
-  
-  /* dingen die je al kent */
+  position:absolute;
+  left:0;
+  top:0;
   margin:0; padding:.5em;
   color:white;
   background-color:rgb(255,0,128,.75);
 }
 
-
-/**************************************/
-/* CODE VOOR li MET id="vollebreedte" */
-/**************************************/
 #vollebreedte {
-  position: relative;
-  
-  
+  position:relative;
 }
 
 #vollebreedte h2 {
-  position: absolute;
-  left: 0;
+  position:absolute;
+  left:0;
   right:0;
   top:0;
-  /* jouw code hier */
-  
-  /* dingen die je al kent */
   margin:0; padding:.5em;
   color:white;
   background-color:rgba(255,0,128,.75);
 }
 
-
-/*************************************/
-/* CODE VOOR li MET id="rechtsonder" */
-/*************************************/
 #rechtsonder {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #rechtsonder h2 {
-   position:absolute;
-   bottom:0;
-   right:0;
-  
-  /* jouw code hier */
-  
-  /* dingen die je al kent */
+  position:absolute;
+  right:0;
+  bottom:0;
   margin:0; padding:.5em;
   color:white;
   background-color:rgba(255,0,128,.75);
 }
 
-
-/**************************************/
-/* CODE VOOR li MET id="beetjeruimte" */
-/**************************************/
 #beetjeruimte {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #beetjeruimte h2 {
-  position: absolute;
-  bottom: 1em;
-  right: 1em;
-  /* jouw code hier */
+  position:absolute;
+  right:1em;
   bottom:1em;
   margin:0; padding:.5em;
   color:white;
   background-color:rgba(255,0,128,.75);
   border:solid .25em white;
-  
 }
 
 
-/****************************************/
-/* CODE VOOR li MET id="breedmetruimte" */
-/****************************************/
 #breedmetruimte {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #breedmetruimte h2 {
-  position: absolute;
-  left: 1em;
-  right: 1em;
-  /* jouw code hier */
+  position:absolute;
+  left:1em;
+  right:1em;
   bottom:1em;
   margin:0; padding:.5em;
-  text-align: center;
+  text-align:center;
   color:white;
   background-color:rgba(255,0,128,.75);
   border:solid .25em white;
 }
 
 
-/*********************************/
-/* CODE VOOR li MET id="allover" */
-/*********************************/
 #allover {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #allover h2 {
-  position: absolute;
-  left: 1em;
-  right: 1em;
-  top: 1em;
-  bottom: 1em;
-  margin:0; 
-  padding:0.5em;
+  position:absolute;
   
-  text-align: center;
+  left:1em; right:1em; top:1em; bottom:1em;
+  margin:0;
   color:white;
   background-color:rgba(255,0,128,.75);
- 
   
-  /* jouw code hier */
-  
-  /* om de tekst in het midden te zetten */
   display:flex;
   justify-content:center;
   align-items:center;
 }
 
 
-/**********************************/
-/* CODE VOOR li MET id="negatief" */
-/**********************************/
 #negatief {
-  position: relative;
-  
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #negatief h2 {
-  position: absolute;
-  left: 0;
-  top: -.75em;
-  margin: 0;
-  padding:.5em;
-  
+  position:absolute;
+  left:0;
+  top:-.75em;
+  margin:0; padding:.5em;
   color:white;
   background-color:rgba(255,0,128,.75);
-  /* jouw code hier */
-  
 }
 
 
-/****************************************/
-/* CODE VOOR li MET id="beetjegedraaid" */
-/****************************************/
 #beetjegedraaid {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #beetjegedraaid h2 {
-  position: absolute;
-  left: 1em;
-  top: -.75em;
-  transform: rotate(-5deg);
+  position:absolute;
+  left:1em; top:-.75em;
   margin:0; padding:.5em;
-  text-align: center;
   color:white;
   background-color:rgba(255,0,128,.75);
+  border-radius:10em;
   border:solid .25em white;
-  border-radius: 2em;
+  box-shadow:.25em .25em .25em rgba(0,0,0,.5);
+  transform:rotate(-2.5deg);
 }
 
-
-/**********************************/
-/* CODE VOOR li MET id="overflow" */
-/**********************************/
 #overflow {
-  position: relative;
-  /* jouw code hier */
-  overflow: hidden;
-  
+  position:relative;
+  overflow:hidden;
 }
 
 #overflow h2 {
-  position: absolute;
-  width: 60%;
-  text-align: center;
-  left: 17.5%;
-  top: -.5em;
-  margin: 0; padding: .5em;
+  position:absolute;
+  width:60%;
+  left:17.5%; top:-.5em;
+  margin:0; padding:.5em;
+  text-align:center;
   color:white;
-  transform: rotate(-2.5deg);
- box-shadow: .25em .25em .25em rgba(0,0,0,.5);
-   border-radius:0 0 1em 1em;
   background-color:rgba(255,0,128,.75);
+  box-shadow:.25em .25em .25em rgba(0,0,0,.5);
+  border-radius:0 0 1em 1em;
   
-  transition: .5s;
+  transform:rotate(-2.5deg);
+  
+  transition:.5s;
 }
 
 #overflow:hover h2 {
-  /* bonus: padding aan de bovenkant is groter bij hoveren */
   padding:2em .5em .5em;
 }
 
 
-/***************************************/
-/* CODE VOOR li MET id="meerelementen" */
-/***************************************/
 #meerelementen {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #meerelementen h2 {
-  position: absolute;
-  /* jouw code hier */
-
-  left: 0;
-  right: 0;
-  top: 0;
+  position:absolute;
+  left:0; right:0; top:0;
   margin:0; padding:.5em;
   color:white;
-  background-color:rgb(255,0,128,.75);
-  
+  background-color:rgba(255,0,128,.75);
 }
 
-/* om de laatste afbeelding te selecteren */
-/* de foto van het gezicht */
 #meerelementen img:last-of-type {
-  position: absolute;
-  /* width: 18%; */
-  width: 5em;
-  height: 5em;
-  right: 1em;
-  top: 1em;
-  border: solid white .25em;
-  /* border-radius: 50em; */
-  border-radius: 50%;
-  /* jouw code hier */
-  
+  position:absolute;
+  width:5em; height:5em;
+  right:1em; top:1em;
+  border:solid .25em white;
+  border-radius:50%;
+  box-shadow:.25em .25em .25em rgba(0,0,0,.5);
 }
 
 
-/*********************************/
-/* CODE VOOR li MET id="z-index" */
-/*********************************/
 #z-index {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #z-index p {
-  position: absolute;
+  position:absolute;
   margin:0; padding:.5em;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size:1.5em;
+  font-weight:bold;
   color:white;
-  background-color:rgb(255,0,128,.75);
-  
-  /* jouw code hier */
-  
+  background-color:rgba(255,0,128,.75);
+  box-shadow:.25em .25em .25em rgba(0,0,0,.5);
 }
 
-/* om de eerste van de 2 p's te selecteren */
 #z-index p:first-of-type {
-  right: 2.75em;
-  top: 1em; 
+  right:2.75em; top:1em;
   z-index:10;
-  /* jouw code hier */
-  
 }
 
-/* om de tweede van de 2 p's te selecteren */
 #z-index p:last-of-type {
-  right: 1em;
-  top: 2.75em;
-  background-color: rgba(0,128,255,.75);
-  /* jouw code hier */
-  
+  right:1em; top:2.75em;
+  background-color:rgba(0,128,255,.75);
 }
 
 
-/************************************/
-/* CODE VOOR li MET id="metverloop" */
-/************************************/
 #metverloop {
-  position: relative;
-  /* jouw code hier */
- 
+  position:relative;
 }
 
 #metverloop h2 {
-  position: absolute;
-  color: white;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0; padding: .5em;
-  
-  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
-  
-  
-  
-  /* jouw code hier */
-  
+  position:absolute;
+  left:0; right:0; bottom:0;
+  margin:0; padding:.5em .5em .5em;
+  color:white;
+  background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
 
-/**********************************/
-/* CODE VOOR li MET id="plakkend" */
-/**********************************/
 #plakkend {
   position:relative;
-  /* jouw code hier */
-  
 }
 
 #plakkend h2 {
-  position: sticky;
-  top: 0;
+  position:sticky;
+  top:0;
   margin:0; padding:.5em;
   color:white;
-  background-color:rgba(255,0,128,.75);
-  
-  /* jouw code hier */
-  
+  background-color:rgb(255,0,128,.75);
 }
 
 
-/************************************/
-/* CODE VOOR li MET id="opzijnkant" */
-/************************************/
 #opzijnkant {
-  position: relative
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #opzijnkant h2 {
-  position: absolute;
-  text-align: center;
-  left:0;
-  bottom:0;
-  top: 0;
+  position:absolute;
+  left:0; top:0; bottom:0;
   margin:0; padding:.5em;
+  text-align:center;
   color:white;
   background-color:rgba(255,0,128,.75);
-  /* jouw code hier */
-  writing-mode: vertical-lr;
-  
+  writing-mode:vertical-rl;
 }
 
 
-/********************************************/
-/* CODE VOOR li MET id="inhetmiddenmetcalc" */
-/********************************************/
 #inhetmiddenmetcalc {
-   position: relative;
-  /* jouw code hier */
-  
-  
+  position:relative;
 }
 
 #inhetmiddenmetcalc button {
   width:2em;
   height:2em;
-  position: absolute;
-  left: calc(50% - 1em);
-  top: calc(50% - 1em);
-  /* jouw code hier */
+  position:absolute;
   
-  /* vormgeving van de button */
+  left:calc(50% - 1em);
+  top:calc(50% - 1em);
+  
   margin:0; padding:0;
   font-size:4em;
   font-weight:bold;
@@ -436,11 +281,9 @@ img {
   background-color:rgba(255,0,128,.75);
   border-radius:2em;
   cursor:pointer;
-  /* om de standaard vormgeving van de button te verwijderen */
   border:none;
   appearance:none;
   outline:none;
-  /* om de pijl in het midden van de button te zetten */
   display:flex;
   justify-content:center;
   align-items:center;
@@ -451,41 +294,37 @@ img {
   box-shadow:0 0 .25em rgb(0,255,128);
 }
 
-/*************************************************/
-/* CODE VOOR li MET id="inhetmiddenmettransform" */
-/*************************************************/
 #inhetmiddenmettransform {
-  position: relative;
-  /* jouw code hier */
-  
+  position:relative;
 }
 
 #inhetmiddenmettransform h2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin:0; 
-  padding:.5em 1em;
-  text-align: center;
-  font-weight:bold;
+  position:absolute;
+  left:50%; top:50%;
+  margin:0; padding:.5em 1em;
+  text-align:center;
   color:white;
   background-color:rgba(255,0,128,.75);
-  /* jouw code hier */
-  transform: translate(-50%, -50%);
+  transform:translate(-50%, -50%);
 }
 
 
-/*********************************/
-/* CODE VOOR li MET id="schuins" */
-/*********************************/
 #schuins {
-  
-  /* jouw code hier */
-  
+  position:relative;
+  overflow:hidden;
 }
 
 #schuins h2 {
-  
-  /* jouw code hier */
-  
+  position:absolute;
+  width:10em;
+  left:-3.5em;
+  bij elkaar -.75em + 1.5em = .75em */
+  top:.75em;
+  margin:0; padding:.5em;
+  line-height:.5em;
+  text-align:center;
+  color:white;
+  background-color:rgba(255,0,128,.75);
+  box-shadow:0 0 .5em rgba(0,0,0,.5);
+  transform:rotate(-45deg);
 }

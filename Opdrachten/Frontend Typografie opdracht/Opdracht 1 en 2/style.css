@@ -1,5 +1,3 @@
-/* een paar algemene dingetjes */
-/* hoef je niets aan te veranderen */
 *, *::after, *::before {
   box-sizing:border-box;
 }
@@ -19,10 +17,6 @@ li {
   background-color:white;
 }
 
-
-/*******************************/
-/* CODE VOOR HET EERSTE BLOKJE */
-/*******************************/
 
 li:first-of-type {
   padding:1em;
@@ -44,11 +38,7 @@ li:first-of-type p::first-letter {
   font-weight:bold;
 }
 
-/*******************************/
-/* CODE VOOR HET TWEEDE BLOKJE */
-/*******************************/
 
-/* hiermee selecteer je het tweede blokje */
 li:nth-of-type(2) {
   display:grid;
   grid-auto-columns:min-content;
@@ -70,9 +60,6 @@ li:nth-of-type(2) h2 {
 }
 
 
-/******************************/
-/* CODE VOOR HET DERDE BLOKJE */
-/******************************/
 li:nth-of-type(3) {
   display:grid;
   grid-auto-columns:min-content;

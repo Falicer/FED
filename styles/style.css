@@ -1,5 +1,42 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;  
+  margin: 0;
+}
+
+/* Text Hider */
+.hide-text{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* Main page */
+/* First Section */
+#videoMain{
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.svgMain{
+  width: 500px;
+  fill: currentColor;
+}
+
+#mainText{
+  position: relative;
+  color: white;
+  font-family: DINNextW05-Medium,arial,georgia,sans-serif;
 }
 
