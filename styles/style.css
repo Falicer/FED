@@ -19,11 +19,11 @@
   bottom: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   overflow: hidden;
 }
 
-video{
+#background_Video{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -39,4 +39,8 @@ video{
   color: white;
   font-family: DINNextW05-Medium,arial,georgia,sans-serif;
 }
+
+.riotbar-social-links ul li a.link-social svg {
+  width: 24px;
+  height: 24px
 
