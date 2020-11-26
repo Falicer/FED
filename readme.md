@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. [De Originele site](https://playvalorant.com/)
 2. -bron 2-
 3. -...-
 
@@ -38,11 +38,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+- dit ging goed: 
+* Aanmaken van de HTML, CSS bestanden.
+* Vullen van de bestanden met content zo ver het lukte. 
+
+- dit was lastig:
+* Werkend krijgen van videos, achtergronden tot nu toe.
+* de visuele content toepassen
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="Opdrachten/Voortgang/eerste_Voortgang/Voortgang1.png" width="375px" alt="homepage">
 
 ### Agenda voor meeting
 
