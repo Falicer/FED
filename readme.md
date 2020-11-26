@@ -38,11 +38,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-- dit ging goed: 
+1. dit ging goed: 
 * Aanmaken van de HTML, CSS bestanden.
 * Vullen van de bestanden met content zo ver het lukte. 
 
-- dit was lastig:
+2. dit was lastig:
 * Werkend krijgen van videos, achtergronden tot nu toe.
 * de visuele content toepassen
 
