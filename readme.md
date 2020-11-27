@@ -56,8 +56,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Marjolein      | Nazier          | Raekwon    | Thuan-Hoa        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| dit bespreken  | en dit             | Video achtergrond op homepage    | en dan ik dat    |
+| an dat ook nog | dit als er tijd is | semantisch correct content toevoegen | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
