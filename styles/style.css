@@ -1,11 +1,13 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing: border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   margin: 0;
 }
 
 /* Text Hider */
-.hide-text{
+.hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -14,7 +16,7 @@
 
 /* Main page */
 /* First Section */
-#videoMain{
+#videoMain {
   top: 0;
   bottom: 0;
   height: 100%;
@@ -23,24 +25,190 @@
   overflow: hidden;
 }
 
-#background_Video{
+#background_Video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.svgMain{
+.svgMain {
   width: 500px;
   fill: currentColor;
 }
 
-#mainText{
+#mainText {
   position: relative;
   color: white;
-  font-family: DINNextW05-Medium,arial,georgia,sans-serif;
+  font-family: DINNextW05-Medium, arial, georgia, sans-serif;
 }
 
 .riotbar-social-links ul li a.link-social svg {
   width: 24px;
   height: 24px
+}
 
+/* Footer Section */
+footer {
+  background-color: #111111;
+  border-top: 2px solid rgba(51, 51, 51, 0.25);
+  color: #7E7E7E;
+  text-align: center;
+  font-family: "FF Mark W05";
+  user-select: none;
+  box-sizing: border-box;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  display: block;
+  margin: 0 16px;
+  padding: 0px;
+  color: #7E7E7E;
+  transition: all 0.2s linear;
+}
+
+footer #riotbar-footer-links {
+  color: #7E7E7E;
+  font-family: "FF Mark W05";
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.riotbar-social-links ul li a {
+  display: block;
+  margin: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  opacity: 0.3;
+  transition: opacity 0.2s linear;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.riotbar-social-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.riotbar-social-links ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.riotbar-social-links ul li a .image-alt-text {
+  display: inline-block;
+  width: 0;
+}
+
+.riotbar-social-links ul li a .image-alt-text {
+  opacity: 0;
+  user-select: none;
+  color: transparent;
+  text-decoration: none;
+}
+
+.riotbar-copyright {
+  font-family: "FF Mark W05";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.316;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  color: #7E7E7E;
+  transition: color 0.2s linear;
+  word-break: keep-all;
+}
+
+.riotbar-game-ratings {
+  user-select: none;
+  box-sizing: border-box;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.riotbar-game-ratings .riotbar-game-rating {
+  margin: 0 10px;
+  max-width: 100%;
+}
+
+.riotbar-game-ratings .riotbar-game-rating-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.riotbar-game-ratings .riotbar-game-rating-logo {
+  display: block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
+  margin: 5px 0;
+  max-width: 100%;
+}
+
+.riotbar-game-ratings .riotbar-game-rating-logo img {
+  max-width: 100%;
+}
+
+.riotbar-game-ratings .riotbar-game-rating-text {
+  display: inline-block;
+  text-align: left;
+  color: #efefef;
+  margin-left: 6px;
+  line-height: 19px;
+  font-size: 15px;
+  font-family: "FF Mark W05";
+}
+
+footer #riotbar-footer-links:hover {
+  color: #F9F9F9;
+}
+
+footer .riotbar-social-links ul li a:hover {
+  color: #F9F9F9;
+}
+
+footer .riotbar-game-ratings {
+  color: #efefef;
+}
+
+.riotbar-footer-content {
+  padding: 1px 5px 175px;
+}
+
+.riotbar-footer-content div.spacing {
+  margin: 40px auto;
+}
+
+.riotbar-legal-links a {
+  margin: 0 5px;
+}
