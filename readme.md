@@ -38,26 +38,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-- dit ging goed: 
+1. dit ging goed: 
 * Aanmaken van de HTML, CSS bestanden.
 * Vullen van de bestanden met content zo ver het lukte. 
 
-- dit was lastig:
+2. dit was lastig:
 * Werkend krijgen van videos, achtergronden tot nu toe.
 * de visuele content toepassen
 
 **Screenshot(s):**
 
-<img src="Opdrachten/Voortgang/eerste_Voortgang/Voortgang1.png" width="375px" alt="homepage">
+<img src="Opdrachten/Voortgang/eerste_Voortgang/voortgang1.png" alt="homepage">
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Marjolein      | Nazier          | Raekwon    | Thuan-Hoa        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| dit bespreken  | en dit             | Video achtergrond op homepage    | en dan ik dat    |
+| an dat ook nog | dit als er tijd is | semantisch correct content toevoegen | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
