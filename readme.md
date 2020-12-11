@@ -30,7 +30,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+1. dit ging goed: 
+* Verder werken aan de pagina, nog niet zo ver als dat ik wil zijn.
+* Vullen van de bestanden met content zo ver het lukte, basis css toegevoe. 
+
+2. dit was lastig:
+* Werkend krijgen van video achtergronden tot nu toe. (Riot Games is evil)
+* Werken aan FED terwijl je ziek bent.
+* Bedenken hoe ik de agents pagina werkend zou krijgen
+
+**Screenshot(s):**
+
+_Screenshots nog toevoegen_
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+ Raekwon  
+| ---            |
+| Video achtergrond op homepage    |
+| semantisch correct content toevoegen |
+| Verandering pagina van Agents naar Maps           |
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
+
 
 
 
@@ -63,6 +91,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+Veel te doen nog, kijk hoe ver je komt, stel vragen.
 
 
 
