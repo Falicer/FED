@@ -37,7 +37,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 * Vullen van de bestanden met content zo ver het lukte, basis css toegevoe. 
 
 2. dit was lastig:
-* Werkend krijgen van video achtergronden tot nu toe. (Riot Games is evil)
+* Werkend krijgen van video achtergronden tot nu toe. (Riot Games is evil (Als je klikt op de link voor maps speelt de video op eens wel af??????))
 * Werken aan FED terwijl je ziek bent.
 * Bedenken hoe ik de agents pagina werkend zou krijgen
 
