@@ -14,38 +14,102 @@
   position: absolute;
 }
 
-/* Main page */
-/* First Section */
-#videoMain {
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  /* position: absolute; */
-  overflow: hidden;
+/* Desktop Size */
+
+@media (min-width: 1024px) {
+
+  /* Main page */
+  /* First Section */
+  #videoMain {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    overflow: hidden;
+  }
+
+  #background_Video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .svgMain {
+    fill: currentColor;
+    max-width: none;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 35em;
+    filter: drop-shadow(0 0 .75em rgba(0, 0, 0, .3));
+  }
+
+  .svgMain svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  #mainText {
+    position: relative;
+    color: white;
+    font-family: DINNextW05-Medium, arial, georgia, sans-serif;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 3.5rem 0;
+  }
+
+  #mainText p {
+    margin: 0 0 1.5rem;
+    text-shadow: 0 0 0.75em rgba(0, 0, 0, .5);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    font-family: DINNextW05-Medium, arial, georgia, sans-serif;
+  }
+
+  .textWrapper {
+    height: auto;
+    width: 100%;
+    max-width: 123rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 42vw;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4rem 5%;
+  }
+
+  /* Section Colors */
+  .section.light {
+    background-color: #ece8e1;
+  }
+
+  .section.red {
+    background-color: #ff4655;
+  }
+
 }
 
-#background_Video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@media (max-width: 1024px) {
+
+  .svgMain{
+    width: 80%;
+  }
+
 }
 
-.svgMain {
-  width: 500px;
-  fill: currentColor;
-}
-
-#mainText {
-  position: relative;
-  color: white;
-  font-family: DINNextW05-Medium, arial, georgia, sans-serif;
-}
-
-.riotbar-social-links ul li a.link-social svg {
-  width: 24px;
-  height: 24px
-}
 
 /* Footer Section */
 footer {
@@ -114,6 +178,11 @@ footer #riotbar-footer-links {
 .riotbar-social-links ul li {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.riotbar-social-links ul li a.link-social svg {
+  width: 24px;
+  height: 24px
 }
 
 .riotbar-social-links ul li a .image-alt-text {
