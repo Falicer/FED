@@ -19,6 +19,9 @@
 @media (min-width: 1024px) {
 
   /* Main page */
+
+  /* Header Section */
+
   /* First Section */
   #videoMain {
     top: 0;
@@ -100,11 +103,16 @@
     background-color: #ff4655;
   }
 
+  .section img {
+    width: 389px;
+    height: 219px;
+  }
+
 }
 
 @media (max-width: 1024px) {
 
-  .svgMain{
+  .svgMain {
     width: 80%;
   }
 
