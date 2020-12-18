@@ -21,6 +21,9 @@
   /* Main page */
 
   /* Header Section */
+  header{
+    background-color: #111111;
+  }
 
   /* First Section */
   #videoMain {
