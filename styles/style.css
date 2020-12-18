@@ -16,7 +16,6 @@
 
 /* Desktop Size */
 
-@media (min-width: 1024px) {
 
   /* Main page */
 
@@ -110,16 +109,6 @@
     width: 389px;
     height: 219px;
   }
-
-}
-
-@media (max-width: 1024px) {
-
-  .svgMain {
-    width: 80%;
-  }
-
-}
 
 
 /* Footer Section */
