@@ -24,7 +24,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+1. dit ging goed: 
+* To be honest, I don't know.
+
+2. dit was lastig:
+* Focusen op werk
+* Combineren met andere vak problemen
+
+**Screenshot(s):**
+
+Komt nog.
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Marjolein      | Nazier          | Raekwon    | Thuan-Hoa        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | Video achtergrond op homepage    | en dan ik dat    |
+| an dat ook nog | dit als er tijd is | Twijfel tussen Maps en Agents Page | dit wil ik zeker |
+| ...            | ...                | Waar het beste is om grid toe te passen          | ...              |
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
 
 
 
