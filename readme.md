@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. [De Originele site](https://playvalorant.com/)
-2. -bron 2-
+2. https://redstapler.co/responsive-css-video-background/
 3. -...-
 
 
