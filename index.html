@@ -9,6 +9,7 @@
 	<title>Valorant FED</title>
 
 	<link href="styles/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
 			<div id="riotbar-bar-wrapper">
 				<div id="riotbar-bar" lang="en">
 					<div id="riotbar-left-content">
-						<div id="riotbar-navmenu"><span style="display: inline-block;">
+						<div id="riotbar-navmenu"><span>
 								<a class="riotbar-logo" href="#top">
 									<span class="riot-bar-fist-logo"></span>
 									<svg width="8" height="5" class="hover drop" viewBox="0 0 8 5">
@@ -27,10 +28,7 @@
 										</path>
 									</svg>
 								</a>
-								<span>
-
-								</span>
-								<span>
+								<span class="second-logo">
 									<a href="#top">
 										<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="35"
 											viewBox="0 0 100 100" width="35">
@@ -44,7 +42,7 @@
 							</span>
 						</div>
 					</div>
-					<div id="riotbar-bar-content" style="width: auto;">
+					<div id="riotbar-bar-content">
 						<div id="riotbar-navbar">
 							<div class="riotbar-explore-label">
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="35" viewBox="0 0 690 98.9"
@@ -247,12 +245,8 @@
 	<main>
 		<section id="ColumnFirst" class="section light">
 			<div id="videoMain">
-				<video preload="auto" loop playsinline poster="images/valorant_poster.jpg" id="background_Video">
-					<source src="videos/mainvideo.mp4" type="video/mp4">
-					<source src="videos/mainvideo.webm" type="video/webm">
-				</video>
-				<video playsinline autoplay muted loop>
-					<source src="videos/mainvideo.mp4" type="video/mp4">
+				<video playsinline autoplay muted loop poster="images/valorant_poster.jpg">
+					<source src="videos/mainvideo1.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -326,7 +320,7 @@
 			<p>More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that
 				create opportunities to let your gunplay shine. No two Agents play alike, just as no two highlight reels
 				will look the same.</p>
-			<a href="#top">VIEW ALL AGENTS</a>
+			<a href="pages/agents.html">VIEW ALL AGENTS</a>
 		</section>
 		<section class="section light">
 			<h2 class="background_Text">PLACE</h2>
