@@ -124,7 +124,7 @@
   padding: 0;
   color: #ece8e1;
   cursor: pointer;
- 
+
   position: relative;
   padding: 8px;
   margin-bottom: 20px;
@@ -139,7 +139,8 @@
   content: '';
   display: block;
   position: absolute;
-  right: 0; left: 0;
+  right: 0;
+  left: 0;
   height: calc(50% - 5px);
   border: 1px solid #7D8082;
   transition: all .15s ease;
@@ -187,7 +188,8 @@
   content: '';
   display: block;
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 2px;
   height: 2px;
   background-color: #0f1923;
@@ -197,7 +199,8 @@
   content: '';
   display: block;
   position: absolute;
-  right: 0; bottom: 0;
+  right: 0;
+  bottom: 0;
   width: 4px;
   height: 4px;
   background-color: #0f1923;
@@ -207,9 +210,11 @@
 .btn__slide {
   display: block;
   position: absolute;
-  top: 0; bottom: -1px; left: -8px;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
   width: 0;
-  background-color:#0f1923;
+  background-color: #0f1923;
   transform: skew(-15deg);
   transition: all .2s ease;
 }
@@ -229,6 +234,9 @@
 .btn:hover .btn__inner::after {
   background-color: #ece8e1;
 }
+
+/* Background Text */
+
 
 
 
