@@ -8,7 +8,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. [De Originele site](https://playvalorant.com/)
 2. https://redstapler.co/responsive-css-video-background/
-3. -...-
+3. https://codepen.io/Axiol/pen/mdeyWwQ
+4. 
 
 
 
