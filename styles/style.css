@@ -237,8 +237,66 @@
 
 /* Background Text */
 
+.backgroundText_Div {
+  height: 100%;
+  width: 100%;
+  top: 54.3em;
+  bottom: 0;
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  left: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
 
+@media (min-width: 1440px) {
+  .background_Text {
+    margin-left: 1em;
+    transform: translateY(-6px);
+    -webkit-text-stroke-color: #dbd8d2;
+    padding: 0;
+    font-size: 20em;
+    line-height: 250px;
+    margin-top: 15px;
+  }
 
+  #we_Are_Text{
+    margin-left: -205px;
+  }
+  #valorant_Text{
+    margin-left: 120px;
+  }
+}
+
+.background_Text>span {
+  display: block;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #dbd8d2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background_Text_2 {
+  margin-left: 1em;
+  transform: translateY(-6px);
+  -webkit-text-stroke-color: #dbd8d2;
+  padding: 0;
+  font-size: 20em;
+  line-height: 250px;
+}
+.background_Text_2>span {
+  display: block;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #dbd8d2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* News Section */
+
+#latest_News{
+  position: relative;
+}
 
 /* Footer Section */
 footer {
