@@ -14,19 +14,22 @@
   position: absolute;
 }
 
-/* Desktop Size */
+/* Video Section */
 
+#ColumnFirst {
+  height: 41.3vw;
+}
 
-/* Main page */
-
-/* First Section */
 #videoMain {
   top: 0;
   bottom: 0;
-  height: 100%;
   width: 100%;
-  /* position: absolute; */
   overflow: hidden;
+}
+
+#videoMain video {
+  width: 100%;
+  position: absolute;
 }
 
 #background_Video {
@@ -41,7 +44,7 @@
   margin: 0 auto;
   display: block;
   position: relative;
-  width: 35em;
+  width: 42em;
   filter: drop-shadow(0 0 .75em rgba(0, 0, 0, .3));
 }
 
@@ -53,7 +56,7 @@
 
 #mainText {
   position: relative;
-  color: white;
+  color: #ece8e1;
   font-family: DINNextW05-Medium, arial, georgia, sans-serif;
   display: -ms-flexbox;
   display: flex;
@@ -64,13 +67,17 @@
 }
 
 #mainText p {
-  margin: 0 0 1.5rem;
+  margin: 0 0 2rem;
   text-shadow: 0 0 0.75em rgba(0, 0, 0, .5);
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: 400;
   text-align: center;
   font-family: DINNextW05-Medium, arial, georgia, sans-serif;
+}
+
+#titleSubText {
+  font-size: 1rem !important;
 }
 
 .textWrapper {
@@ -80,7 +87,7 @@
   position: relative;
   display: -ms-flexbox;
   display: flex;
-  min-height: 42vw;
+  min-height: 35vw;
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-align: center;
@@ -90,6 +97,8 @@
   margin: 0 auto;
   padding: 4rem 5%;
 }
+
+
 
 /* Section Colors */
 .section.light {
@@ -104,6 +113,123 @@
   width: 389px;
   height: 219px;
 }
+
+/* Buttons */
+.btn {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  color: #ece8e1;
+  cursor: pointer;
+ 
+  position: relative;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all .15s ease;
+}
+
+.btn::before,
+.btn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0; left: 0;
+  height: calc(50% - 5px);
+  border: 1px solid #7D8082;
+  transition: all .15s ease;
+}
+
+.btn::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.btn::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn:active::before,
+.btn:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.btn:active::before {
+  top: 3px;
+}
+
+.btn:active::after {
+  bottom: 3px;
+}
+
+.btn__inner {
+  position: relative;
+  display: block;
+  padding: 1rem 5rem;
+  background-color: #ff4655;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+}
+
+.btn__inner::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.btn__inner::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0; bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #0f1923;
+  transition: all .2s ease;
+}
+
+.btn__slide {
+  display: block;
+  position: absolute;
+  top: 0; bottom: -1px; left: -8px;
+  width: 0;
+  background-color:#0f1923;
+  transform: skew(-15deg);
+  transition: all .2s ease;
+}
+
+.btn__content {
+  position: relative;
+}
+
+.btn:hover {
+  color: #ece8e1;
+}
+
+.btn:hover .btn__slide {
+  width: calc(100% + 15px);
+}
+
+.btn:hover .btn__inner::after {
+  background-color: #ece8e1;
+}
+
 
 
 /* Footer Section */
