@@ -69,18 +69,18 @@
         margin-top: 720px;
     }
 
-    .article_Css{
+    .article_Css {
         padding-right: 0px;
         width: 350px;
         padding-bottom: 20px;
     }
 
-    .section img{
+    .section img {
         width: 90%;
         height: 100%;
     }
 
-    .section h4{
+    .section h4 {
         font-size: 20px;
     }
 
@@ -88,37 +88,38 @@
     /* Agents Section */
 
     #agents_Image {
-        height: 100%;
-        width: 30%;
+        height: 500px;
+        width: 80%;
         margin-left: 2rem;
     }
 
-    #agents_Position{
+    #agents_Position {
         flex-direction: column;
+        width: 100%;
     }
 
-    #agents_Text{
+    #agents_Text {
         margin-top: 1em;
         margin-left: 1em;
     }
 
-    #agents_Text h2{
+    #agents_Text h2 {
         font-size: 3.5rem;
         line-height: 3.5rem;
     }
 
-    #agents_Text h3{
+    #agents_Text h3 {
         font-size: 1.3rem;
-        width: 400px;
+        width: 100%;
     }
 
-    #agents_Text p{
+    #agents_Text p {
         font-size: 1rem;
         line-height: 1.5;
         width: 303px;
     }
 
-    #agent_Button{
+    #agent_Button {
         position: absolute;
         margin-top: 20rem;
     }
@@ -126,35 +127,35 @@
 
     /* Map section */
 
-    #place_Text{
+    #place_Text {
         display: none;
     }
 
-    #maps_Text{
+    #maps_Text {
         margin: 0px;
         padding-top: 1rem;
         padding-left: 1rem;
         width: 100%;
     }
 
-    #maps_Text h2{
+    #maps_Text h2 {
         font-size: 4rem;
         line-height: 4rem;
         margin-bottom: 1rem;
         width: 100%;
     }
 
-    #maps_Text h3{
+    #maps_Text h3 {
         width: 100%;
     }
 
-    #maps_Text p{
+    #maps_Text p {
         width: 325px;
         color: #768079;
     }
 
 
-    #maps_background{
+    #maps_background {
         margin: 0px;
         width: auto;
         height: 600px;
@@ -165,13 +166,13 @@
         margin-top: 60%;
     }
 
-    #maps_Button{
+    #maps_Button {
         position: absolute;
         margin-top: 25rem;
         margin-left: 2rem;
     }
-    
-    #maps_Position{
+
+    #maps_Position {
         height: 845px;
         padding: 20px 0px 0px 0px;
     }

@@ -522,7 +522,7 @@
 
 /* Animation */
 
-h2{
+h2 {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
@@ -531,6 +531,7 @@ h2{
     transform: translateY(100%);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
