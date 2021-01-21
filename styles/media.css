@@ -29,7 +29,7 @@
     }
 
     #titleSubText {
-        font-size: 0.8rem !important;
+        font-size: 1.5rem !important;
     }
 
     #videoMain video {
@@ -40,7 +40,7 @@
     /* First Section Closed */
     /* background text */
     .background_Text {
-        font-size: 5em;
+        font-size: 10em;
     }
 
     .backgroundText_Div {
@@ -67,7 +67,8 @@
 
     #sidebar_News {
         position: absolute;
-        margin-top: 760px;
+        margin-top: 730px;
+        font-size: 2rem;
     }
 
     .article_Css {
@@ -105,17 +106,18 @@
     }
 
     #agents_Text h2 {
-        font-size: 3.5rem;
-        line-height: 3.5rem;
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 20px;
     }
 
     #agents_Text h3 {
-        font-size: 1.3rem;
+        font-size: 2rem;
         width: 100%;
     }
 
     #agents_Text p {
-        font-size: 1rem;
+        font-size: 1.5rem;
         line-height: 1.5;
         width: 303px;
     }
@@ -140,19 +142,22 @@
     }
 
     #maps_Text h2 {
-        font-size: 4rem;
-        line-height: 4rem;
+        font-size: 5rem;
+        line-height: 5rem;
         margin-bottom: 1rem;
         width: 100%;
     }
 
     #maps_Text h3 {
         width: 100%;
+        margin-bottom: 1rem;
     }
 
     #maps_Text p {
         width: 325px;
         color: #768079;
+        font-size: 1.4em;
+        line-height: 1.4em;
     }
 
 
@@ -180,36 +185,54 @@
 
 
     /* -----Agent Pagina----- */
-    #agent_BackgroundVideo{
+    #agent_BackgroundVideo {
         display: none;
     }
 
-    #intro_Position{
+    #intro_Position {
         flex-direction: column;
     }
 
-    #agent_Name{
+    #agent_Name {
         padding: 0;
         font-size: 5em;
-    margin: auto;
-    width: 156px;
+        margin: auto;
+        width: 105px;
     }
 
-    #yoru_Image{
+    #yoru_Image {
         height: 558px;
         padding: 1em;
         margin: auto;
     }
 
-    #agent_Role{
-        margin: 0;
+    #agent_Role {
+        margin: 0 1em;
     }
 
-    #darkblue_Bg{
+    #darkblue_Bg {
         height: 65em;
     }
 
-    #agent_BioText{
-        width: 16.7em;
+    #agentrole_Text{
+        font-size: 1.5em;
+    }
+
+    #agent_RoleText{
+        font-size: 3em;
+    }
+
+    #duelist_Tag{
+        width: 30px;
+        height: 30px;
+    }
+
+    #agent_BioTitle{
+        font-size: 1.5em;
+    }
+
+    #agent_BioText {
+        width: 12.7em;
+        font-size: 1.4em;
     }
 }
