@@ -24,12 +24,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 * Responsive maken
 * Mobiele look niet vergeten
 * Toevoegen van javascript, meeste was een css animation.
+* Special ability slider? weet niet wat het is op de agent slider.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-<img src="Opdrachten/eindversie1.jpg" width="375px" alt="homepage">
-<img src="Opdrachten/eindversie2.jpg" width="375px" alt="homepage">
+<img src="Opdrachten/eindversie1.jpg" alt="homepage">
+<img src="Opdrachten/eindversie2.jpg" alt="homepage">
+<img src="Opdrachten/agent_page.png" alt="homepage">
 
 
 ## Voortgang 3 (week 6)
