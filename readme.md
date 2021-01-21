@@ -29,8 +29,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+Homepage:
 <img src="Opdrachten/eindversie1.jpg" alt="homepage">
 <img src="Opdrachten/eindversie2.jpg" alt="homepage">
+
+Agent page:
 <img src="Opdrachten/agent_page.png" alt="homepage">
 
 
@@ -56,7 +59,7 @@ Komt nog.
 | Marjolein      | Nazier          | Raekwon    | Thuan-Hoa        |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | Video achtergrond op homepage    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | Twijfel tussen Maps en Agents Page | dit wil ik zeker |
+| an dat ook nog | dit als er tijd is | Twijfel tussen Maps en Agents Page | dit wil ik zeker |Ho
 | ...            | ...                | Waar het beste is om grid toe te passen          | ...              |
 
 ### Verslag van meeting
