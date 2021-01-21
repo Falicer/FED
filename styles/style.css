@@ -358,6 +358,7 @@
   line-height: .86;
   font-weight: bold;
   margin-bottom: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #sidebar_News {
@@ -517,6 +518,23 @@
   width: 75%;
   margin-top: -95px;
   margin-left: 25%;
+}
+
+/* Animation */
+
+h2{
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* Footer Section */
