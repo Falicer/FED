@@ -16,7 +16,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+1. Dit ging goed:
+* Opgang komen als iets lukte
+
+2. Dit was lastig:
+* Motivatie vinden als er iets te lang fout ging
+* Responsive maken
+* Mobiele look niet vergeten
+* Toevoegen van javascript, meeste was een css animation.
 
 **Screenshot(s):**
 
