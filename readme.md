@@ -29,6 +29,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+
+
 Homepage:
 <img src="Opdrachten/eindversie1.jpg" alt="homepage">
 <img src="Opdrachten/eindversie2.jpg" alt="homepage">
