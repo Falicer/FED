@@ -532,6 +532,7 @@ h2 {
   animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
+
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
@@ -589,6 +590,7 @@ h2 {
 #agent_RoleText {
   font-size: 4em;
   margin: 0.2em 0;
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
 #agent_BioTitle {
@@ -600,6 +602,7 @@ h2 {
   font-family: Arial;
   width: 440px;
   margin-top: 1em;
+  animation: 400ms ease-in-out 500ms 1 slideInFromBottom backwards;
 }
 
 /* Footer Section */
