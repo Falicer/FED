@@ -5,11 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Raekwon Gerold">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/ico" href="images/favicon.ico">
+	<link rel="icon" type="image/ico" href="../images/favicon.ico">
 	<title>Valorant FED</title>
 
 	<link href="../styles/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="../styles/header.css">
+	<link rel="stylesheet" href="../styles/media.css">
 </head>
 
 <body>
@@ -166,20 +167,18 @@
 								</a>
 							</div>
 							<div class="riotbar-navmenu-category">
-								<a class="riotbar-navmenu-link   "
-									data-riotbar-link-id="play-now"
+								<a class="riotbar-navmenu-link   " data-riotbar-link-id="play-now"
 									data-ping-meta="riotbar-content=navigation|riotbar-navigation=play-now"
 									data-riotbar-account-action="openModal" target="">PLAY NOW</a>
-								</div>
+							</div>
 							<div class="riotbar-navmenu-links">
 								<div class="riotbar-navmenu-category">
-									<a class="riotbar-navmenu-link sub-menu-trigger  "
-										href="#" data-riotbar-link-id="game-info"
+									<a class="riotbar-navmenu-link sub-menu-trigger  " href="#"
+										data-riotbar-link-id="game-info"
 										data-ping-meta="riotbar-content=navigation|riotbar-navigation=game-info"
 										target="">GAME INFO
 										<span class="side-menu-icon">
-											<svg width="5" height="9"
-												class="" viewBox="0 0 5 9">
+											<svg width="5" height="9" class="" viewBox="0 0 5 9">
 												<path
 													d="M1.707 7.793l2.586-2.586a1 1 0 0 0 0-1.414L1.707 1.207C1.077.577 0 1.023 0 1.914v5.172c0 .89 1.077 1.337 1.707.707z"
 													fill="#7E7E7E">
@@ -187,35 +186,31 @@
 											</svg>
 										</span>
 									</a>
-									<a class="riotbar-navmenu-link   " href="/en-us/media"
-										data-riotbar-link-id="media"
+									<a class="riotbar-navmenu-link   " href="/en-us/media" data-riotbar-link-id="media"
 										data-ping-meta="riotbar-content=navigation|riotbar-navigation=media"
 										target="">MEDIA</a>
-										<a class="riotbar-navmenu-link   " href="/en-us/news/"
-										data-riotbar-link-id="news"
+									<a class="riotbar-navmenu-link   " href="/en-us/news/" data-riotbar-link-id="news"
 										data-ping-meta="riotbar-content=navigation|riotbar-navigation=news"
 										target="">NEWS</a>
-										<a class="riotbar-navmenu-link sub-menu-trigger  " href="#"
+									<a class="riotbar-navmenu-link sub-menu-trigger  " href="#"
 										data-riotbar-link-id="support"
 										data-ping-meta="riotbar-content=navigation|riotbar-navigation=support"
 										target="">SUPPORT
 										<span class="side-menu-icon">
-											<svg width="5" height="9" class=""
-												viewBox="0 0 5 9">
+											<svg width="5" height="9" class="" viewBox="0 0 5 9">
 												<path
 													d="M1.707 7.793l2.586-2.586a1 1 0 0 0 0-1.414L1.707 1.207C1.077.577 0 1.023 0 1.914v5.172c0 .89 1.077 1.337 1.707.707z"
 													fill="#7E7E7E">
 												</path>
 											</svg>
 										</span>
-										</a>
-											<a class="riotbar-navmenu-link sub-menu-trigger  " href="#"
+									</a>
+									<a class="riotbar-navmenu-link sub-menu-trigger  " href="#"
 										data-riotbar-link-id="social"
 										data-ping-meta="riotbar-content=navigation|riotbar-navigation=social"
 										target="">Our Socials
 										<span class="side-menu-icon">
-											<svg width="5" height="9"
-												class="" viewBox="0 0 5 9">
+											<svg width="5" height="9" class="" viewBox="0 0 5 9">
 												<path
 													d="M1.707 7.793l2.586-2.586a1 1 0 0 0 0-1.414L1.707 1.207C1.077.577 0 1.023 0 1.914v5.172c0 .89 1.077 1.337 1.707.707z"
 													fill="#7E7E7E">
@@ -229,8 +224,7 @@
 						<div id="riotbar-navmenu-dropdown-2" class="riotbar-navmenu-dropdown  ">
 							<div class="sub-menu-header"><a id="sub-sub-menu-close"
 									class="sub-menu-back sub-sub-menu-close">
-									<svg width="5" height="8" class=""
-										viewBox="0 0 5 8">
+									<svg width="5" height="8" class="" viewBox="0 0 5 8">
 										<path
 											d="M3.293 7.293L.707 4.707a1 1 0 0 1 0-1.414L3.293.707C3.923.077 5 .523 5 1.414v5.172c0 .89-1.077 1.337-1.707.707z"
 											fill="#7E7E7E"></path>
@@ -246,7 +240,32 @@
 		</div>
 	</header>
 	<main>
-		
+		<section id="darkblue_Bg">
+			<div id="videoMain">
+				<video playsinline autoplay muted loop poster="../images/agent-background-generic.JPG" id="agent_BackgroundVideo">
+					<source src="../videos/agent-background-generic.mp4" type="video/mp4" alt="valorant agent background">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			<div id="intro_Position">
+				<div id="name_Position">
+					<h1 id="agent_Name">Yoru</h1>
+				</div>
+				<div>
+					<img src="../images/yoru_image.png" alt="Valorant Agent Yoru" id="yoru_Image">
+				</div>
+				<div id="agent_Role">
+					<h3 id="agentrole_Text">// ROLE</h3>
+					<h2 id="agent_RoleText">Duelist <img src="../images/Duelist.png" id="duelist_Tag"></h2>
+					<h3 id="agent_BioTitle">// BIOGRAPHY</h3>
+					<p id="agent_BioText">Japanese native, Yoru, rips holes straight through reality to infiltrate enemy
+						lines unseen.
+						Using deception and aggression in equal measure,
+						he gets the drop on each target before they know where to look.
+					</p>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer class="riotbar-footer-content">
 		<div class="spacing">
@@ -355,7 +374,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="scripts/script.js"></script>
+	<script src="../scripts/script.js"></script>
 </body>
 
 </html>

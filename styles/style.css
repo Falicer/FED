@@ -7,6 +7,8 @@
   scroll-behavior: smooth;
 }
 
+/* -----Homepage Css----- */
+
 /* Text Hider */
 .hide-text {
   text-indent: 100%;
@@ -31,6 +33,10 @@
 #videoMain video {
   width: 100%;
   position: absolute;
+}
+
+#agent_BackgroundVideo {
+  z-index: 1;
 }
 
 #background_Video {
@@ -536,6 +542,64 @@ h2 {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+/* -----Agents Page----- */
+#darkblue_Bg {
+  background-color: #0f1923;
+}
+
+#intro_Position {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  position: relative;
+  height: 800px;
+}
+
+#agent_Name {
+  color: #ff4655;
+  font-family: impact;
+  font-size: 7em;
+  padding-top: 2.5em;
+  padding-left: 2.2em;
+}
+
+#yoru_Image {
+  height: 100%;
+  padding: 2% 10em;
+}
+
+#agent_Role {
+  margin-left: -20em;
+  margin-top: 8em;
+  color: #ece8e1;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#duelist_Tag {
+  height: 50px;
+  width: 50px;
+}
+
+#agentrole_Text {
+  font-size: 1.7em;
+}
+
+#agent_RoleText {
+  font-size: 4em;
+  margin: 0.2em 0;
+}
+
+#agent_BioTitle {
+  font-size: 1.7em;
+}
+
+#agent_BioText {
+  font-size: 1.4em;
+  font-family: Arial;
+  width: 440px;
+  margin-top: 1em;
 }
 
 /* Footer Section */
