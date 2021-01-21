@@ -28,7 +28,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
+<img src="Opdrachten/eindversie1.jpg" width="375px" alt="homepage">
+<img src="Opdrachten/eindversie2.jpg" width="375px" alt="homepage">
 
 
 ## Voortgang 3 (week 6)
