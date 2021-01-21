@@ -9,7 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. [De Originele site](https://playvalorant.com/)
 2. https://redstapler.co/responsive-css-video-background/
 3. https://codepen.io/Axiol/pen/mdeyWwQ
-4. 
+4. https://codepen.io/Phong6698/pen/pojVjjq
+5. https://stackoverflow.com/questions/5527296/how-can-i-detect-scroll-end-of-the-specified-element-by-javascript
 
 
 
