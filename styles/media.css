@@ -1,5 +1,6 @@
 @media (max-width: 667px) {
 
+    /* -----Homepage----- */
     /* First Section */
     #ColumnFirst {
         height: 62.3vw;
@@ -175,5 +176,40 @@
     #maps_Position {
         height: 845px;
         padding: 20px 0px 0px 0px;
+    }
+
+
+    /* -----Agent Pagina----- */
+    #agent_BackgroundVideo{
+        display: none;
+    }
+
+    #intro_Position{
+        flex-direction: column;
+    }
+
+    #agent_Name{
+        padding: 0;
+        font-size: 5em;
+    margin: auto;
+    width: 156px;
+    }
+
+    #yoru_Image{
+        height: 558px;
+        padding: 1em;
+        margin: auto;
+    }
+
+    #agent_Role{
+        margin: 0;
+    }
+
+    #darkblue_Bg{
+        height: 65em;
+    }
+
+    #agent_BioText{
+        width: 16.7em;
     }
 }
