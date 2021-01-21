@@ -4,6 +4,7 @@
 *::before {
   box-sizing: border-box;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 /* Text Hider */
@@ -63,7 +64,7 @@
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse;
   text-align: center;
-  margin: 3.5rem 0;
+  margin-top: 3.5rem;
 }
 
 #mainText p {
@@ -103,10 +104,12 @@
 /* Section Colors */
 .section.light {
   background-color: #ece8e1;
+  height: auto;
 }
 
 .section.red {
   background-color: #ff4655;
+  height: auto;
 }
 
 .section img {
@@ -114,7 +117,8 @@
   height: 219px;
 }
 
-/* Buttons */
+/* Buttons makes use of css variables within the*/
+
 .btn {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -122,8 +126,18 @@
   border: none;
   background: none;
   padding: 0;
-  color: #ece8e1;
+  color: var(--button-text-color);
   cursor: pointer;
+
+  /* Color variables for the button */
+  --button-text-color: var(--background-color);
+  --button-text-color-hover: var(--button-background-color);
+  --border-color: #7D8082;
+  --button-background-color: #ece8e1;
+  --highlight-color: #0f1923;
+  --button-inner-border-color: transparent;
+  --button-bits-color: var(--background-color);
+  --button-bits-color-hover: var(--button-background-color);
 
   position: relative;
   padding: 8px;
@@ -132,6 +146,7 @@
   font-weight: bold;
   font-size: 14px;
   transition: all .15s ease;
+  margin-top: 5rem;
 }
 
 .btn::before,
@@ -142,7 +157,7 @@
   right: 0;
   left: 0;
   height: calc(50% - 5px);
-  border: 1px solid #7D8082;
+  border: 1px solid var(--border-color);
   transition: all .15s ease;
 }
 
@@ -207,6 +222,38 @@
   transition: all .2s ease;
 }
 
+.btn__inner_2 {
+  position: relative;
+  display: block;
+  padding: 1rem 5rem;
+  background-color: var(--button-background-color);
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+}
+
+.btn__inner_2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.btn__inner_2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: var(--button-background-color);
+  transition: all .2s ease;
+}
+
 .btn__slide {
   display: block;
   position: absolute;
@@ -214,7 +261,7 @@
   bottom: -1px;
   left: -8px;
   width: 0;
-  background-color: #0f1923;
+  background-color: var(--highlight-color);
   transform: skew(-15deg);
   transition: all .2s ease;
 }
@@ -224,7 +271,7 @@
 }
 
 .btn:hover {
-  color: #ece8e1;
+  color: var(--button-text-color-hover);
 }
 
 .btn:hover .btn__slide {
@@ -232,40 +279,54 @@
 }
 
 .btn:hover .btn__inner::after {
-  background-color: #ece8e1;
+  background-color: var(--button-bits-color-hover);
 }
 
-/* Background Text */
+.btn--light {
+  --button-background-color: var(--background-color);
+  --button-text-color: var(--highlight-color);
+  --button-inner-border-color: var(--highlight-color);
+  --button-text-color-hover: #ece8e1;
+  --button-bits-color-hover: #ece8e1;
+}
+
+/* Background Text (The We Are Valorant Text on the background at the news section) */
 
 .backgroundText_Div {
-  height: 100%;
+  height: 3%;
   width: 100%;
-  top: 54.3em;
   bottom: 0;
   position: absolute;
-  overflow: hidden;
   right: 0;
   left: 0;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
-@media (min-width: 1440px) {
+/* Media nodig voor background desktop */
+@media (min-width: 1520px) {
   .background_Text {
     margin-left: 1em;
     transform: translateY(-6px);
     -webkit-text-stroke-color: #dbd8d2;
     padding: 0;
-    font-size: 20em;
+    margin-top: 50px;
     line-height: 250px;
-    margin-top: 15px;
+    font-size: 20em;
   }
 
-  #we_Are_Text{
+  #we_Are_Text {
     margin-left: -205px;
   }
-  #valorant_Text{
+
+  #valorant_Text {
     margin-left: 120px;
+    overflow: hidden;
+  }
+
+  #place_Text {
+    margin-left: -205px;
+    margin-top: 1550px;
   }
 }
 
@@ -276,27 +337,186 @@
   -webkit-text-stroke-color: #dbd8d2;
   font-family: Arial, Helvetica, sans-serif;
 }
-.background_Text_2 {
-  margin-left: 1em;
-  transform: translateY(-6px);
-  -webkit-text-stroke-color: #dbd8d2;
-  padding: 0;
-  font-size: 20em;
-  line-height: 250px;
-}
-.background_Text_2>span {
-  display: block;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #dbd8d2;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 /* News Section */
 
-#latest_News{
+#latest_News {
   position: relative;
-  padding-top: 15em;
+  padding-top: 10em;
+  padding-left: 15em;
+  padding-bottom: 10em;
+}
+
+#latest_Text {
+  color: #ff4655;
+  display: inline-block;
+  transition: transform .65s cubic-bezier(.25, .46, .45, .94);
+  width: 500px;
+  z-index: 1;
+  font-size: 6rem;
+  line-height: .86;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#sidebar_News {
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ff4655;
+  text-decoration: none;
+  font-family: DINNextW1G, arial, georgia, sans-serif;
+  font-size: 10px;
+  line-height: 1.15;
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-right: 20%;
+}
+
+#arrowIcon {
+  transition: transform .3s ease-out;
+  transform: translateX(0) rotate(0deg);
+  height: 2rem;
+  width: 2rem;
+  display: inline-block;
+  pointer-events: none;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.news_Articles {
+  display: flex;
+}
+
+.article_Css {
+  width: 421px;
+  padding-right: 2.5%;
+}
+
+.article_Info {
+  font-size: 24px;
+}
+
+/* Defy Limits */
+
+#defy_Header {
+  font-size: 7em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 3.5em;
+  padding-top: 1em;
+  color: #0f1923;
+}
+
+/* Agents section */
+#agents_Image {
+  height: 800px;
+  width: 100%;
+}
+
+#agents_Position {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 0px;
+}
+
+#agents_Text {
+  margin-top: 50px;
+}
+
+/* #agents_Text h2::content{
+  transform: translateY(115%);
+} */
+
+#agents_Text h2 {
+  color: white;
+  display: inline-block;
+  transition: transform .65s cubic-bezier(.25, .46, .45, .94);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 7rem;
+  line-height: 7rem;
+  margin-bottom: 50px;
+}
+
+#agents_Text h3 {
+  color: white;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2rem;
+}
+
+#agents_Text p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.04rem;
+  line-height: 1.5;
+}
+
+/* Maps Section */
+
+#maps_Position {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+  height: 800px;
+}
+
+#maps_Text {
+  position: relative;
+  z-index: 1;
+  margin: 100px 20% 0px;
+}
+
+
+#maps_Text h2 {
+  color: #0f1923;
+  display: inline-block;
+  transition: transform .65s cubic-bezier(.25, .46, .45, .94);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 7rem;
+  line-height: 7rem;
+  margin-bottom: 50px;
+  width: 525px;
+}
+
+#maps_Text h3 {
+  color: #0f1923;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2rem;
+}
+
+#maps_Text p {
+  color: #0f1923;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.04rem;
+  line-height: 1.5;
+  width: 410px;
+}
+
+#maps_Text button {
+  color: white;
+}
+
+#maps_background {
+  position: absolute;
+  z-index: 0;
+  height: 875px;
+  max-height: 88rem;
+  width: 75%;
+  margin-top: -95px;
+  margin-left: 25%;
 }
 
 /* Footer Section */

@@ -1,0 +1,178 @@
+@media (max-width: 667px) {
+
+    /* First Section */
+    #ColumnFirst {
+        height: 62.3vw;
+    }
+
+    .textWrapper {
+        padding: 0px;
+        position: absolute;
+        margin-top: -225px;
+    }
+
+    #mainText {
+        margin-top: 1rem;
+    }
+
+    #mainText p {
+        margin: 0 0 1rem;
+    }
+
+    .svgMain {
+        width: 15rem;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+    #titleSubText {
+        font-size: 0.8rem !important;
+    }
+
+    #videoMain video {
+        width: 150%;
+        position: relative;
+    }
+
+    /* First Section Closed */
+    /* background text */
+    .background_Text {
+        font-size: 5em;
+    }
+
+    .backgroundText_Div {
+        overflow: hidden;
+        height: 50%;
+        line-height: 0.9;
+    }
+
+    /* Latest Nest Section */
+    #latest_News {
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-bottom: 4em;
+    }
+
+    #latest_Text {
+        font-size: 3em;
+        width: 250px;
+    }
+
+    .news_Articles {
+        display: block;
+    }
+
+    #sidebar_News {
+        position: absolute;
+        margin-top: 720px;
+    }
+
+    .article_Css{
+        padding-right: 0px;
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .section img{
+        width: 90%;
+        height: 100%;
+    }
+
+    .section h4{
+        font-size: 20px;
+    }
+
+
+    /* Agents Section */
+
+    #agents_Image {
+        height: 100%;
+        width: 30%;
+        margin-left: 2rem;
+    }
+
+    #agents_Position{
+        flex-direction: column;
+    }
+
+    #agents_Text{
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+
+    #agents_Text h2{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    #agents_Text h3{
+        font-size: 1.3rem;
+        width: 400px;
+    }
+
+    #agents_Text p{
+        font-size: 1rem;
+        line-height: 1.5;
+        width: 303px;
+    }
+
+    #agent_Button{
+        position: absolute;
+        margin-top: 20rem;
+    }
+
+
+    /* Map section */
+
+    #place_Text{
+        display: none;
+    }
+
+    #maps_Text{
+        margin: 0px;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    #maps_Text h2{
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    #maps_Text h3{
+        width: 100%;
+    }
+
+    #maps_Text p{
+        width: 325px;
+        color: #768079;
+    }
+
+
+    #maps_background{
+        margin: 0px;
+        width: auto;
+        height: 600px;
+        max-height: inherit;
+        position: relative;
+        overflow: hidden;
+        margin-left: -100%;
+        margin-top: 60%;
+    }
+
+    #maps_Button{
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: 2rem;
+    }
+    
+    #maps_Position{
+        height: 845px;
+        padding: 20px 0px 0px 0px;
+    }
+}
